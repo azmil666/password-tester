@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Tips</title>
+  <link rel="stylesheet" href="tips.css" />
+</head>
+<body>
+  <div class="tips-container">
+    <h1>Password Evaluation</h1>
+    <div class="meter" id="strength-meter"></div>
+    <div class="result-section">
+      <div class="strength-section">
+        <h2>Strengths</h2>
+        <ul id="strengths-list"></ul>
+      </div>
+      <div class="improve-section">
+        <h2>Needs Improvement</h2>
+        <ul id="improvement-list"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
+
+  <script src="tips.js"></script>
+</body>
+</html>

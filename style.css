@@ -1,0 +1,77 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* Container */
+  .container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Heading */
+  .container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Input */
+  input[type="password"] {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  
+  /* Feedback Box */
+  #strength-feedback {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #f1f1f1;
+    font-weight: 500;
+  }
+  
+  /* Transition Overlay */
+  #transition-wave {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    z-index: 1000;
+    display: none;
+  }
+  #transition-wave {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, #003366, #0055aa);
+    z-index: 999;
+    transform: scaleY(0);
+    pointer-events: none;
+  }
+    
